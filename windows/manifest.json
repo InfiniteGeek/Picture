@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "XGCT自动关广告",
+  "version": "1.0",
+  "permissions": ["debugger", "tabs"],
+  "host_permissions": ["*://cartoon.ixigua.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
